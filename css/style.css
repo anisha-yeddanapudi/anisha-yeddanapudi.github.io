@@ -3,7 +3,7 @@
 .Container img {
     height: 300px;
     border-radius: 50%;
-    border: 12px solid whitesmoke
+    border: 12px solid whitesmoke 
 }
 
 section {
@@ -38,7 +38,10 @@ section {
     justify-content: space-between;
   }
 
-  
+.navbar{
+    position: fixed;
+}
+
   
 ul {
    list-style: none;
