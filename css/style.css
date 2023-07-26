@@ -48,6 +48,8 @@ section {
     display: flex;
     justify-content: space-between;
     position: fixed;
+    width: 50%;
+    border-radius: 5px, 25px, 25px, 5px;
   }
 
 nav {
@@ -82,7 +84,7 @@ ul a {
 }
 
 ul li {
-    padding: 10px;
+    padding: 15px;
     margin-left: 10px;
 }
 
