@@ -1,14 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#intro {
+    background-image :
+    background-color: 
+}*/
+
 .Container img {
     height: 300px;
     border-radius: 50%;
-    border: 12px solid whitesmoke 
+    border: 12px solid #d4f1f4
 }
 
 section {
     height: 100vh;
-    border: 1px solid grey;
+    border: 1px solid #05445e;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -32,10 +43,11 @@ section {
   
   header {
     padding: 0 20px;
-    background-color: lightblue;
+    background-color: #189ab4;
     height: 50px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
   }
 
 nav {
@@ -86,6 +98,6 @@ ul li:hover {
 }
 
 #contact:hover {
-    background-color: #50c878;
+    background-color: #75e6da;
 }
 
