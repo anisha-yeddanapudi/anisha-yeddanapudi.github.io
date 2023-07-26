@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+.Container img {
+    height: 300px;
+    border-radius: 50%;
+    border: 12px solid whitesmoke
+}
+
+section {
+    height: 100vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -50,5 +64,9 @@ ul li:hover {
     border-radius: 5px;
     padding: 5px;
     border: 1px solid white
+}
+
+#contact:hover {
+    background-color: lightblue;
 }
 
