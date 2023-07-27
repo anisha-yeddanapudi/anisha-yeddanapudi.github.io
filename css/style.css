@@ -69,7 +69,7 @@ nav.active {
 }
 
 .nav-links {
-    display: flex;
+    display: inline;
     align-items: center;
     gap: 1.5rem;
     transform: translate3d(0, -200%,0);
