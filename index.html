@@ -5,25 +5,35 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <script src="script.js"></script>
     <header>
         <nav>
-        <div class="navbar">
-            <ul>
-                <li><a href="#intro">Home</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#teaching">Teaching</a></li>
-                <li id="CV"><a href = "#CV">CV</a></li>
-                <li id="contact"><a href = "#contact">Contact</a></li>
-            </ul>
-        </div>   
+        <div class="container nav-container">
+            <div class="nav-wrapper">
+                <button class="btn btn--menu"
+                id="menu-btn"
+                aria-expanded="false"
+                aria-controls="menu"
+                aria-label="Open mobile nav">
+                <svg xmls="https://www.w3.org/2000/svg"
+                width="32" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor"
+                    stroke-wdith="4">
+                <path stroke-linecap="round"
+                stroke-linejoin="round" d="M4 8h16M4 16h16"/>
+                </svg>
+                </button>
+                <ul role="menubar" class="nav-links" id="menu">
+                    <li role="none">
+                     <a role="menuitem" href="#intro" class="nav-link btn">Home</a>   
+                     <a role="menuitem" href="#publications" class="nav-link btn">Publications</a>
+                     <a role="menuitem" href="#teaching" class="nav-link btn btn--accent">Teaching</a>    
+                    </li>
+                </ul>
+            </div>
+        </div>  
         </nav>
     </header>
-
-    <style>
-        .navbar-nav > .active > a { 
-            background-color: #75e6da; 
-        }
-    </style>
 
 
 <main>
