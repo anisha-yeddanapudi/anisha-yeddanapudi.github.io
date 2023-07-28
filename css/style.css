@@ -55,11 +55,11 @@ body {
   }
   
   .nav-container {
-    display: flex;
+    display: inline;
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .nav-link:focus-visible {
     outline: 4px solid var(--accent);
     outline-offset: 0.2em;
