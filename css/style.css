@@ -82,6 +82,7 @@ body {
     padding: 1.5rem;
     border-bottom: 4px solid var(--accent);
     text-align: center;
+    float: left;
   }
   
   .nav-links.activated {
@@ -117,6 +118,7 @@ body {
     display: block;
     font-size: 1.1rem;
     text-transform: uppercase;
+    float: left;
   }
   
   .btn--menu[aria-expanded="true"] {
