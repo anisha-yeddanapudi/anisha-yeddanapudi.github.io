@@ -67,10 +67,15 @@ body {
     border-radius: 0.5rem;
   }
 
-  .nav-link[aria-current = "page"] {
+  /*.nav-link[aria-current = "page"] {
       text-decoration: underline cyan 0.15rem;
       text-underline-offset: 0.5rem;
-  } /*underlines current page -- can change to whatever */
+  } underlines current page -- can change to whatever */
+
+  .btn.active {
+    text-decoration: underline cyan 0.15rem;
+    text-underline-offset: 0.5rem;
+  }
   
   .nav-links {
     display: flex;
