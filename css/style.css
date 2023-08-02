@@ -72,11 +72,11 @@ body {
       text-underline-offset: 0.5rem;
   } underlines current page -- can change to whatever */
 
-  .nav a {
+  .nav-links a {
       font-family: monospace;
   }
 
-  .nav-links.active {
+  .nav-links a.active {
     text-decoration: underline cyan 0.15rem;
     text-underline-offset: 0.5rem;
     background: red;

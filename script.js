@@ -17,10 +17,10 @@ navBtn.addEventListener('click', () => {
 
 $(document).ready(function () {
     let menuScrollTimer = null;
-    $(".nav-links").click(function (e) {
+    $(".nav-links a").click(function (e) {
         e.preventDefault();
         if (menuScrollTimer === null) {
-            $('.nav-links.active').removeClass('active');
+            $('.nav-links a.active').removeClass('active');
             $(this).addClass('active');
             let target = $(this).attr('href');
             $('html, body').animate({ scrollTop: $(target).offset().top - 100 }, 1050);
@@ -35,7 +35,7 @@ $(document).ready(function () {
         if (menuScrollTimer === null) {
             let windowTop = $(this).scrollTop();
 
-            $('.nav-links').each(function (event) {
+            $('.nav-links a').each(function (event) {
                 if (windowTop >= $($(this).attr('href')).offset().top - 100) {
                     $('.nav .active').removeClass('active');
                     $(this).addClass('active');
