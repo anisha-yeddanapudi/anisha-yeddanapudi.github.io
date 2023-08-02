@@ -15,12 +15,12 @@ navBtn.addEventListener('click', () => {
     }
 })*/
 
-$(document).ready(function(){
+$(document).ready(function () {
     let menuScrollTimer = null;
-    $(".nav-link btn").click(function (e) {
+    $(".nav a").click(function (e) {
         e.preventDefault();
         if (menuScrollTimer === null) {
-            $('.nav-link btn.active').removeClass('active');
+            $('.nav a.active').removeClass('active');
             $(this).addClass('active');
             let target = $(this).attr('href');
             $('html, body').animate({ scrollTop: $(target).offset().top - 100 }, 1050);
@@ -30,18 +30,17 @@ $(document).ready(function(){
             }, 1050);
         }
     });
+
     $(window).scroll(function (e) {
-        // Avoid triggering the logic if the scroll event is triggerd from clicking one of the items
         if (menuScrollTimer === null) {
             let windowTop = $(this).scrollTop();
 
-            $(".nav-link btn").each(function (event) {
+            $('.nav a').each(function (event) {
                 if (windowTop >= $($(this).attr('href')).offset().top - 100) {
-                    $(".nav-link btn").removeClass('active');
+                    $('.nav .active').removeClass('active');
                     $(this).addClass('active');
                 }
             });
         }
     });
-
-})
+});

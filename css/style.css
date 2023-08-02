@@ -72,7 +72,7 @@ body {
       text-underline-offset: 0.5rem;
   } underlines current page -- can change to whatever */
 
-  .btn.active {
+  .nav a.active {
     text-decoration: underline cyan 0.15rem;
     text-underline-offset: 0.5rem;
   }
