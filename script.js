@@ -37,7 +37,7 @@ $(document).ready(function () {
 
             $('.nav-links a').each(function (event) {
                 if (windowTop >= $($(this).attr('href')).offset().top - 100) {
-                    $('.nav .active').removeClass('active');
+                    $('.nav-links .active').removeClass('active');
                     $(this).addClass('active');
                 }
             });

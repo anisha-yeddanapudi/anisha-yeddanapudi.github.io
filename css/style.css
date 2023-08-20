@@ -77,9 +77,12 @@ body {
   }
 
   .nav-links a.active {
-    text-decoration: underline cyan 0.15rem;
-    text-underline-offset: 0.5rem;
+    opacity: 1;
     background: red;
+  }
+
+  .nav-links a:hover {
+    background-color: red;
   }
   
   .nav-links {
