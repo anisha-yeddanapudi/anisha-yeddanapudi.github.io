@@ -27,50 +27,46 @@ img {
     background-color: 
 }*/
 
-.button{
-  display: inline-block;
-  padding: .75rem 1.25rem;
-  border-radius: 10rem;
-  color: #fff;
-  font-size: 1rem;
-  letter-spacing: .15rem;
-  transition: all .3s;
-  position: relative;
+.button {
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background-color: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
   overflow: hidden;
-  z-index: 1;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.19)
+  0px 10px 20px,
+  rgba(0, 0, 0, 0.23)
+  0px 6px 6px;
+  transition: all 160ms ease-in;
 }
 
-.button::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+button:hover {
+  background:#008168;
+}
+
+button:active {
+  background: #006e58 ;
+}
+
+.button-text,
+.button-icon {
+  display: flex;
+  align-items: center;
   height: 100%;
-  background-color: #0cf;
-  border-radius: 10rem;
-  z-index: -2;  
+  padding: 0 24px;
+  color: rgb(226,226,226);
 }
 
-.button::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background-color: darken(#0cf, 15%);
-  transition: all .3s;
-  border-radius: 10rem;
-  z-index: -1;  
-}
-
-.button:hover {
-  color: #fff;
-}
-
-.button:hover::before {
-  width: 100%;
+.button-icon {
+  height: 25px;
+  /* background: darkgreen; */
+  filter: brightness(100) invert(1);
 }
 
 
