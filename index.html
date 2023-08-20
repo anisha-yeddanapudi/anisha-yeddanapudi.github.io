@@ -5,7 +5,8 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <script src="script.js" type="module"></script>
+    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> -->
+    
     <header>
         <nav>
         <div class="container nav-container">
@@ -42,7 +43,12 @@
             <img src="images/anisha.jpg" alt="displace picture of anisha">
             <h2>My name is Anisha Yeddanapudi. </h2>
             <p>I'm an undergraduate at UC Berkeley with a double major in Applied Math and Physics. </p>
-            <button class="button">Download CV</button>
+            <button class="button">
+                <span class="button-text">Download CV</span>
+                <span class="button-icon">
+                    <img src="images/file.png"/>
+                </span>
+            </button>
             <button class="button">Contact Me</button>
         </div>
     </section>
@@ -90,12 +96,8 @@
 
     
 </main>
-
-
-
-
-
-
+<script src="script.js"></script>
+<script src="scroll.js"></script>
 
 </body>
 </html>
