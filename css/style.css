@@ -38,7 +38,7 @@ img {
 }
 
 
-.button {
+.cvButton, .conButton {
   display: flex;
   height: 50px;
   padding: 0;
@@ -63,11 +63,21 @@ img {
   margin-left: 10px;
 }
 
-.button:hover {
+.cvButton:hover {
   background:#008168;
+  transform: scale(1.1);
 }
 
-.button:active {
+.conButton:hover {
+  background:#008168;
+  transform: scale(1.1);
+}
+
+.cvButton:active {
+  background: #006e58 ;
+}
+
+.conButton:active {
   background: #006e58 ;
 }
 
@@ -75,9 +85,29 @@ img {
   height: 100%;
   color: rgb(226,226,226);
   padding: 0 12px;
+  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
 }
 
-.button i {
+.cvButton .button-text {
+  padding-right: 20px;
+}
+
+.cvButton i {
+  /* filter: invert(100%); */
+  /* padding-left:24px; */
+  padding: 0 12px;
+  display: flex;
+  color: rgb(226,226,226);
+  float:right;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+  font-size: 1.5rem;
+  background:#008168;
+}
+
+.conButton i {
   /* filter: invert(100%); */
   /* padding-left:24px; */
   padding: 0 12px;
@@ -101,7 +131,7 @@ img {
 }
 
 body {
-    font-family: "Nunito Sans", sans-serif;
+  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;;
     font-size: clamp(1.1rem, 2vw + 1rem, 1.4rem);
     line-height: 1.55;
     background: var(--bkg);
@@ -140,16 +170,16 @@ body {
   } underlines current page -- can change to whatever */
 
   .nav-links a {
-      font-family: monospace;
+    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
   }
 
   .nav-links a.active {
     opacity: 1;
-    background: red;
+    background: #1eae98;
   }
 
   .nav-links a:hover {
-    background-color: red;
+    background-color: #1eae98;
   }
   
   .nav-links {
@@ -189,7 +219,7 @@ body {
   }
   
   .btn--menu {
-    color: var(--accent);
+    color: var(--text);
     background-color: transparent;
     border: none;
     display: grid;

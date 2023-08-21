@@ -15,6 +15,7 @@ navBtn.addEventListener('click', () => {
     }
 })*/
 
+
 $(document).ready(function () {
     let menuScrollTimer = null;
     $(".nav-links a").click(function (e) {
