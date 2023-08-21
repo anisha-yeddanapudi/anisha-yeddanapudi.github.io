@@ -16,16 +16,27 @@ img {
 }
 
 :root {
-    --bkg: linear-gradient(to top, #0f0915, #050307);
-    --dark: #050307;
+    --bkg: linear-gradient(to top, #1eae98, #1D2671);
+    --dark: #1D2671;
     --text: #f9f6fe;
-    --accent: #4233e4;
+    --accent: #1eae98;
   }
 
 /*#intro {
     background-image :
     background-color: 
 }*/
+
+#intro{
+  text-align: center;
+}
+
+#cv-btn, #con-btn {
+  display: inline-block;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
 
 .button {
   display: flex;
@@ -36,7 +47,7 @@ img {
   outline: none;
   border-radius: 5px;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.19)
@@ -44,29 +55,41 @@ img {
   rgba(0, 0, 0, 0.23)
   0px 6px 6px;
   transition: all 160ms ease-in;
+  flex-direction: row-reverse;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-button:hover {
+.button:hover {
   background:#008168;
 }
 
-button:active {
+.button:active {
   background: #006e58 ;
 }
 
-.button-text,
-.button-icon {
-  display: flex;
-  align-items: center;
+.button-text {
   height: 100%;
-  padding: 0 24px;
   color: rgb(226,226,226);
+  padding: 0 12px;
 }
 
-.button-icon {
-  height: 25px;
-  /* background: darkgreen; */
-  filter: brightness(100) invert(1);
+.button i {
+  /* filter: invert(100%); */
+  /* padding-left:24px; */
+  padding: 0 12px;
+  display: flex;
+  color: rgb(226,226,226);
+  float:right;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+  font-size: 1.5rem;
+  background:#008168;
 }
 
 
@@ -95,9 +118,9 @@ body {
     display: inline;
   }
   
-  nav.active {
+  /* nav.active {
     background-color: var(--dark);
-  }
+  } */
   
   .nav-container {
     display: flex;
@@ -137,12 +160,13 @@ body {
     transform: translate3d(0, -200%, 0);
     position: absolute;
     z-index: -1;
-    top: 3rem;
+    top: 1rem;
     left: 0;
     right: 0;
     background-color: var(--dark);
     padding: 1.5rem;
     border-bottom: 4px solid var(--accent);
+    /* border-top: 4px solid var(--accent); */
     text-align: center;
     float: left;
   }
@@ -224,7 +248,7 @@ body {
 section {
     height: 100vh;
     border: 1px solid #05445e;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center; 
 }

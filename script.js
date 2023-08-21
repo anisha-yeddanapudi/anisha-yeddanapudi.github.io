@@ -14,7 +14,7 @@ navBtn.addEventListener('click', () => {
         link.setAttribute('aria-current', 'page')
     }
 })*/
-/*
+
 $(document).ready(function () {
     let menuScrollTimer = null;
     $(".nav-links a").click(function (e) {
@@ -44,4 +44,4 @@ $(document).ready(function () {
         }
     });
 });
-*/
+
