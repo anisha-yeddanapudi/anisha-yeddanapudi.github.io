@@ -16,7 +16,7 @@ img {
 }
 
 :root {
-    --bkg: linear-gradient(to top, #1eae98, #1D2671);
+    --bkg: linear-gradient(to top, #189AB4, #1D2671);
     --dark: #1D2671;
     --text: #f9f6fe;
     --accent: #1eae98;
@@ -179,7 +179,8 @@ body {
   }
 
   .nav-links a:hover {
-    background-color: #1eae98;
+    background: #1eae98;
+    border-radius: 15px;
   }
   
   .nav-links {
@@ -219,7 +220,7 @@ body {
   }
   
   .btn--menu {
-    color: var(--text);
+    color: var(--accent);
     background-color: transparent;
     border: none;
     display: grid;
