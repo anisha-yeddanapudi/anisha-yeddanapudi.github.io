@@ -284,6 +284,32 @@ section {
     align-items: center; 
 }
 
+header,
+section,
+footer {
+    margin: 0;
+    padding: 1px; /* tweaked from 0 to 1px */
+}
+
+
+h4{
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+}
+
+#ListofTeaching{
+  text-align:left;
+  font: size 20px;
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  }
+
+  #Details{
+    text-align:left;
+    font: size 12px;
+    }
+
+
 /*
 
 * {
