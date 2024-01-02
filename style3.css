@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080800;
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 8vh;
+    background-image: url(images2/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 10px 2%;
+}
+
+/* .container img {
+    height: 500px;
+    border: 5px solid #d4f1f4
+} */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px;
+    
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    
+}
+
+nav ul li a::after{
+    content: '' ;
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+    
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+    text-decoration-color: #ff004f;
+    text-underline-offset: 9px;
+    text-decoration-thickness: 3px;
+}
+
+.header-text h1 {
+    margin-top: 5%;
+    font-size: 60px;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.container h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* -----------talks page------------- */
+
+#talks{
+    padding: 80px 0;
+    color: #ababab;
+    /* margin-left: 20px; */
+}
+
+.subtitle-talk {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px; 
+    cursor: default;
+}
+
+.sub-info-p a {
+    text-decoration: none;
+    color: #b54769;
+    
+}
+
+.sub-info-p {
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.info-p1 {
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.sub-info-p a:hover {
+    color: #ff004f;
+}
+
+.talk-divider {
+    margin-top: 0px;
+}
+
+.span {
+    font-weight: 900;
+}
+
+.text.date-subtitle1 {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    /* cursor: pointer; */
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+}
+
+.talk-divider {
+    margin-top: 15px;
+}
+
+/* ------------teaching page--------------- */
+
+#teaching{
+    padding: 80px 0;
+    color: #ababab;
+    /* margin-left: 20px; */
+}
+
+.container h1 {
+    padding-left: 14.6%;
+}
+
+.sub-p {
+    padding-left: 15%;
+    padding-top: 8px;
+}
+
+hr {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-top:1px solid black;
+}
+
+/* .box1 {
+    border-top: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+    padding-bottom: 15px;
+    padding-left: 20%;
+} */
+
+.row {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 5px;
+}
+
+.text {
+    padding-left: 55%;
+    padding-bottom: 12%;
+}
+
+.col1-list {
+    padding-left: 25%;
+}
+
+.text.date-subtitle {
+    display: flex;
+    /* margin: 0 0 40px;
+    margin-right: 0px; */
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    bottom: 30px;
+    right: 70px;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    transition-duration: 0.4s;
+}
+
+.subtitle.link:hover{
+    color: #ff004f;
+}
+
+.subtitle.link {
+    color:#b54769;
+}
+
+.col1-list a {
+    text-decoration: none;
+}
+
+.info-p {
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.infoButton{
+    background-color: #080800; 
+    display: inline-block;
+    position: relative;
+    border: 1px solid #b54769;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+    color:#b54769;
+    padding-right: 5px;
+    padding-left: 5px;
+    transition-duration: 0.4s;
+    font-size: 14px;
+     
+}
+
+.infoButton:hover {
+    background:#b54769;
+    cursor: pointer;
+    color: white;
+  }
+
+/* .button-text:hover {
+    color: white;
+} */
+
+/* ----------resources--------- */
+.sub-p2 {
+    padding-left: 14.7%;
+    padding-top: 8px;
+}
+
+h4 a{
+    text-decoration: none;
+    color: #b54769;
+    transition-duration: 0.4s;
+}
+
+h4 a:hover{
+    text-decoration: none;
+    color: #ff004f;
+}
+
+h3 {
+    padding-bottom: 5px;
+}
+
+/* ----------css for small screen--------- */
+nav .fa {
+    display: none;
+}
+
+
+@media only screen and (max-width:900px){
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    nav .fa {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background:#ff004f;
+        position:fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa {
+        position:absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    .subtitle-talk {
+        padding-top: 10px;
+    }
+
+    .talk-divider {
+        margin-top: 10px;
+    }
+    
+}
+
+@media only screen and (max-width:600px){
+    .subtitle {
+        font-size: 40px;
+    }
+
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+    }
+
+    .about-col-1 {
+        margin-bottom: 30px;
+    }
+
+    .about-col-2 {
+        font-size: 14px;
+    }
+
+    .tab-links {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    .cvButton {
+        margin-bottom: 20px;
+    }
+}

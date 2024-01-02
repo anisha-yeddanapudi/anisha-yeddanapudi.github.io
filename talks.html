@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talks</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2><a href="index2.html">Anisha Yeddanapudi</a></h2>
+               <ul id="sidemenu">
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a class='active' href="talks.html">Talks</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <i class = 'fa fa-times' onclick="closemenu()"></i>  
+               </ul>
+               <i class = 'fa fa-bars' onclick="openmenu()"></i> 
+            </nav>
+        </div>
+    </div>
+
+
+
+
+    <div id="talks">
+        <div class="container">
+            <h1>Talks</h1>
+            <p class="sub-p">Recent conference presentations and other talks that I have spoken at.</p><br>
+            <hr class="top-line">
+            <div class="box box1">
+            <div class="row">
+                <div class="col1-list">
+                    <a href="#"><h2 class="subtitle-talk">Measurements of Neutron-Induced Gamma Ray Background <sup>100</sup>Mo for CUPID.</h2></a>
+                    <p class="info-p1">S. Puranam and <span class = 'bold'>A. Yeddanapudi</span></p>
+                    <p class="sub-info-p"><a href="https://meetings.aps.org/Meeting/DNP22/APS_epitome#:~:text=Thursday%E2%80%93Sunday%2C%20October%2027%E2%80%93,%2C%20USA%3B%20New%20Orleans%2C%20Louisiana" target="_blank">Fall Meeting of the Division of Nuclear Physics of the American Physical Society</a> (<a href="https://meetings.aps.org/Meeting/DNP22/Session/HA" target="_blank">CEU22</a>)</p>
+                    <a href="https://meetings.aps.org/Meeting/DNP22/Session/HA.95" target="_blank">
+                        <button class="infoButton" id="info-btn">
+                            <span>Abstract</span>
+                        </button>
+                    </a>
+                    <a href="files2/DNPCEU_TUNLposter.pdf" target="_blank">
+                        <button class="infoButton" id="info-btn">
+                            <span>Poster</span>
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="infoButton" id="info-btn">
+                            <span>Paper</span>
+                        </button>
+                    </a>
+                    <h2 class="subtitle-talk">Determining the Verdet Coefficient of Olive Oil with Faraday Rotation</h2>
+                    <p class="info-p1">M. Dharmawan, S. Mogan, O. Khoshsorour, <span class = 'bold'>A. Yeddanapudi</span>, and T. Zhou</p>
+                    <p class="sub-info-p">Undergraduate Lab at Berkeley Poster Symposium</p>
+                    <a href="https://ulab.berkeley.edu/static/doc/posters/s227.pdf" target="_blank">
+                        <button class="infoButton" id="info-btn">
+                            <span>Poster</span>
+                        </button>
+                    </a>
+                    </div>
+                    <h2 class=" text date-subtitle1">2022</h2>
+                </div>
+                <hr class = 'talk-divider'>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+    
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+    
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    
+    </script>
+</body>
+</html>
