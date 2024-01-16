@@ -263,19 +263,47 @@ hr {
     padding-top: 8px;
 }
 
-h4 a{
+
+.subtext {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.column {
+    padding-left: 14.7%;
+    padding-right: 14.7%;
+}
+
+h4 {
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+h5 a{
     text-decoration: none;
     color: #b54769;
     transition-duration: 0.4s;
+    font-size: 16px;
 }
 
-h4 a:hover{
+h6 {
+    padding-bottom: 8px;
+}
+
+h5 a:hover{
     text-decoration: none;
     color: #ff004f;
 }
 
 h3 {
     padding-bottom: 5px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.math {
+    padding-top: 15px;
 }
 
 /* ----------css for small screen--------- */
