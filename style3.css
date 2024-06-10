@@ -140,6 +140,16 @@ nav ul li a.active {
     right: 10px;
 }
 
+.text.date-subtitle2 {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    /* cursor: pointer; */
+    position: relative;
+    bottom: -10px;
+    right: 10px;
+}
+
 .talk-divider {
     margin-top: 15px;
 }
