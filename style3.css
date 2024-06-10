@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #080800;
+    background: #101529;
     color: #fff;
 }
 
@@ -231,7 +231,7 @@ hr {
 }
 
 .infoButton{
-    background-color: #080800; 
+    background-color: transparent; 
     display: inline-block;
     position: relative;
     border: 1px solid #b54769;
