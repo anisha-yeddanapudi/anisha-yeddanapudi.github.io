@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #101529;
-    color: #fff;
+    background: #080b14;
+    color: white;
 }
 
 #header{
@@ -42,7 +42,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     position: relative;

@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #101529;
+    background: #080b14;
     color: #fff;
 }
 
@@ -83,6 +83,23 @@ nav ul li a.active {
     text-decoration: none;
     color: white;
 }
+
+/* --------- publications page -------- */
+.sub-publications {
+    padding-left: 14.7%;
+    padding-top: 8px;
+}
+
+.text.date-subtitle3 {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    /* cursor: pointer; */
+    position: relative;
+    bottom: 73.5px;
+    right: 10px;
+}
+
 
 /* -----------talks page------------- */
 
