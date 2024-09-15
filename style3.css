@@ -33,8 +33,7 @@ body {
 }
 
 .container p {
-    padding-left: 15%;
-    padding-top: 8px;
+    padding-left: 12.5%;
 }
 
 hr {
@@ -266,80 +265,21 @@ nav ul li a.active {
     padding-left: 35%;
 }
 
-/* .box1 {
-    border-top: 1px solid #ababab;
-    border-bottom: 1px solid #ababab;
-    padding-bottom: 15px;
-    padding-left: 20%;
-} */
-
-
-
-/* .row {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1.5fr 1fr;
-    column-gap: 5px;
-}
-
-.text {
-    padding-left: 55%;
-    padding-bottom: 12%;
-}
-
-.text.date-subtitle {
-    display: flex;
-    /* margin: 0 0 40px;
-    margin-right: 0px; 
-    font-size: 18px;
-    font-weight: 500;
-    position: relative;
-    bottom: 30px;
-    right: 70px;
-}
-
-.subtitle{
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-    padding-top: 15px;
-    transition-duration: 0.4s;
-}
-
-.subtitle.link:hover{
-    color: #ff004f;
-}
-
-.subtitle.link {
-    color:#b54769;
-}
-
-.col1-list a {
-    text-decoration: none;
-}
-
-.info-p {
-    font-size: 14px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-} */
-
-/* .button-text:hover {
-    color: white;
-} */
-
 /* ----------resources--------- */
 
+#resource-title {
+    padding-left: 12.5%;
+    padding-bottom: 3px;
+}
 
-#resource-p {
+ #resource-p {
     font-size: 14px;
     padding-bottom: 10px;
     padding-top: 0px;
 }
 
 .column {
-    padding-left: 14.7%;
+    padding-left: 12.5%;
     padding-right: 14.7%;
 }
 
@@ -347,7 +287,7 @@ h4 {
     font-size: 18px;
     padding-bottom: 5px;
     padding-top: 5px;
-    padding-left: 15%;
+    padding-left: 12.5%;
 }
 
 h5 a{
@@ -355,10 +295,12 @@ h5 a{
     color: #b54769;
     transition-duration: 0.4s;
     font-size: 16px;
+    padding-left: 12.5%;
 }
 
 h6 {
     padding-bottom: 8px;
+    padding-left: 12.5%;
 }
 
 h5 a:hover{
@@ -370,12 +312,12 @@ h3 {
     padding-bottom: 5px;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 15%;
+    padding-left: 12.5%;
 }
 
 .math {
     padding-top: 15px;
-}
+} 
 
 /* ----------css for small screen--------- */
 nav .fa {
