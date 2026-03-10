@@ -24,27 +24,8 @@
                <i class = 'fa fa-bars' onclick="openmenu()"></i> 
             </nav>
         </div>
-        <div class="btn-container">
-            <a href="files/CV copy (5).pdf" target="_blank">
-                <button class="cvButton" id="cv-btn">
-                    <i class="fa-solid fa-file-arrow-down"></i>
-                    <span class="button-text">Download CV</span>
-                </button>
-            </a>
 
-            <a href="mailto:anishay2016@gmail.com">
-                <button class="conButton" id="con-btn">
-                    <i class="fa-solid fa-paper-plane"></i>
-                    <span class="button-text">Contact Me</span>
-                </button>
-            </a>
-        </div>
-    </div>
-
-<!-- ------about------- -->
-
-<div id="about">
-    <div class="container">
+<div class="container_about">
         <div class="row">
             <div class="about-col-1">
                 <img src="images2/anishaHat2.jpg">
@@ -134,7 +115,119 @@
             </div>
         </div>
     </div>
-</div>
+
+
+        <div class="btn-container">
+            <a href="files/CV copy (5).pdf" target="_blank">
+                <button class="cvButton" id="cv-btn">
+                    <i class="fa-solid fa-file-arrow-down"></i>
+                    <span class="button-text">Download CV</span>
+                </button>
+            </a>
+
+            <a href="mailto:anishay2016@gmail.com">
+                <button class="conButton" id="con-btn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span class="button-text">Contact Me</span>
+                </button>
+            </a>
+        </div>
+    </div>
+
+<!-- ------about------- -->
+
+<!-- <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images2/anishaHat2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>I'm currently pursuing a PhD under Prof. Lee Cronin at the University of Glasgow. Prior to joining the Cronin Group, I recieved my BA in Physics and Applied Math from the University of California, Berkeley with High Honors. My current 
+                    research focuses on understanding how living systems emerge from non-living components and developing new computational frameworks in the chemical space. I enjoy discovering and understanding new physics, and as a result I've worked on a wide variety 
+                    of projects ranging from condensed matter to particle physics. 
+                </p>
+                <div class="tab-titles">
+                    <p class = 'tab-links active-link' onclick="opentab('skills')">Ongoing Projects</p>
+                    <p class = 'tab-links' onclick="opentab('experience')">Experience</p>
+                    <p class = 'tab-links' onclick="opentab('education')">Education</p>
+                    <p class = 'tab-links' onclick="opentab('past')">Past Projects</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <span>Dynamic Markov Chain Models applied to Aggregation Theory </span>
+                            <br> This work studies aggregating systems in Assembly Theory, via assembly kernels applied to the Smoluchowski ensemble,
+                             using dynamic and static continuous-time Markov chain models. 
+                        </li>
+
+                        <li>
+                            <span>Topological Analysis of Energy Reconstruction in CUORE Calorimeters of <sup>56</sup>Co Gamma Rays</span>
+                            <br> This work aims to understand and correct biases in the calorimetric energy reconstruction by classifying these errors in terms of event topology, 
+                            location, and possible variation of the pulse shape. This project repeats the analysis that was conducted previously in <sup>232</sup>Th, 
+                            except with the gamma rays emitted by <sup>56</sup>Co, which provides a more robust dataset to corroborate the previous analysis. 
+                        </li>
+                        <li>
+                            <span>Statistical Mechanics of Assembly Theory</span>
+                            <br> This work aims to develop the fundamentals of Assembly Theory and merge these ideas with a statistical mechanics framework in 
+                            order to explain selection and complexity through both a biological and physical lense.
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>
+                            <span>2024 - NOW</span><br>Postgraduate researcher at the <a href = https://www.chem.gla.ac.uk/cronin>Cronin Group </a>
+                        </li>
+                        <li>
+                            <span>2022 - NOW</span><br>Researcher at the Kolomensky Group
+                        </li>
+                        <li>
+                            <span>2022 - 2023</span><br>Undergraduate researcher at the <a href=https://physics.berkeley.edu/research-faculty/research-groups/analytis-lab>Analytis Lab</a>
+                        </li>
+                        <li>
+                            <span>Summer 2022</span><br>Front end developer at MetaMahaw
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>Today: PhD in Chemistry</span><br>University of Glasgow
+                        </li>
+                        <li>
+                            <span>2024: BA in Physics</span><br>Univesity of California, Berkeley
+                        </li>
+                        <li>
+                            <span>2024: BA in Applied Math</span><br>Univesity of California, Berkeley
+                        </li>
+                        <li>
+                            <span>2021: AA/AS</span><br>San Joaquin Delta College
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="past">
+                    <ul>
+                        <li>
+                            <span>Topological Analysis of Energy Reconstruction in CUORE Calorimeters of <sup>232</sup>Th Gamma Rays</span>
+                            <br> This work aims to understand and correct biases in the calorimetric energy reconstruction by classifying these errors in terms of event topology, 
+                            location, and possible variation of the pulse shape. Overall, we find evidence of position-dependent energy reconstruction in CUORE's TeO<sub>2</sub> calorimeters.
+                        </li>
+                        <li>
+                            <span>Measurements of Neutron-Induced Gamma Ray Background of <sup>100</sup>Mo for CUPID</span>
+                            <br>Neutron scattering with <sup>100</sup>Mo in CUPID creates a poorly understood background that could resemble the signal created by neutrinoless double beta decay. To deduce the 
+                            expected background resulting from these processes, this work aims to understand the cross-section between neutrons and <sup>100</sup>Mo at different energy levels.
+
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
 
 <script>
     var tablinks = document.getElementsByClassName("tab-links");
